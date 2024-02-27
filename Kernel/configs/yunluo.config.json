@@ -1,8 +1,8 @@
 [
   {
     "kernelSource": {
-      "name": "Redmi Pad ",
-      "repo": "https://github.com/Arpitshubhamm/kernel_xiaomi-yunluo",
+      "name": "Redmi Pad (Global) ",
+      "repo": "https://github.com/Arpitshubhamm/kernel_xiaomi-yunluo.git",
       "branch": "udc",
       "device": "yunluo",
       "defconfig": "yunluo_gki.fragments"
