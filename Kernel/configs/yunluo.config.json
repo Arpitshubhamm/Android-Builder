@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "RedmiPad ",
+      "name": "RedmiPad",
       "repo": "https://github.com/Arpitshubhamm/kernel_xiaomi-yunluo.git",
       "branch": "udc",
       "device": "yunluo",
