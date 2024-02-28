@@ -8,7 +8,6 @@
       "defconfig": "gki_defconfig"
     },
     "enableCcache": true,
-    "{
   "toolchains": [],
   "params": {
     "ARCH": "arm64",
@@ -28,8 +27,7 @@
       "LLVM_AR": "arm-linux-gnueabi-ar",
       "LLVM_DIS": "arm-linux-gnueabi-dis"
     }
-  }
-}"
+   },
 
     "AnyKernel3": {
       "use": true,
