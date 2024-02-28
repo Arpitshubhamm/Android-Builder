@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "RedmiPad",
-      "repo": "https://github.com/Arpitshubhamm/Xiaomi_Kernel_OpenSource.git",
-      "branch": "yunluo-s-oss",
+      "repo": "https://github.com/Arpitshubhamm/kernel_xiaomi-yunluo.git",
+      "branch": "udc",
       "device": "yunluo",
-      "defconfig": "yunluo_defconfig"
+      "defconfig": "gki_defconfig"
     },
     "toolchains": [
       {
