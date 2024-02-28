@@ -29,7 +29,7 @@
       "LLVM_DIS": "arm-linux-gnueabi-dis"
     }
   }
-}
+}"
 
     "AnyKernel3": {
       "use": true,
