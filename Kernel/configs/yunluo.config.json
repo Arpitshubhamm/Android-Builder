@@ -5,7 +5,7 @@
       "repo": "https://github.com/Arpitshubhamm/kernel_xiaomi-yunluo.git",
       "branch": "udc",
       "device": "yunluo",
-      "defconfig": "gki_defconfig"
+      "defconfig": "defconfig"
     },
     "toolchains": [
       {
