@@ -8,35 +8,29 @@
       "defconfig": "gki_defconfig"
     },
     "enableCcache": true,
-    "toolchains": [
-      {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
-        "name": "proton-clang",
-        "binaryEnv": [
-          "bin"
-        ]
-      }
-    ],
-    "params": {
-      "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
-      "externalCommands": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "LD": "proton-clang/bin/ld.lld",
-        "AR": "proton-clang/bin/llvm-ar",
-        "NM": "proton-clang/bin/llvm-nm",
-        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
-        "OBJDUMP": "proton-clang/bin/llvm-objdump",
-        "READELF": "proton-clang/bin/llvm-readelf",
-        "OBJSIZE": "proton-clang/bin/llvm-size",
-        "STRIP": "proton-clang/bin/llvm-strip",
-        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
-      }
-     },
+    "{
+  "toolchains": [],
+  "params": {
+    "ARCH": "arm64",
+    "CC": "aarch64-linux-gnu-clang",
+    "externalCommands": {
+      "CROSS_COMPILE": "aarch64-linux-gnu-",
+      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+      "LD": "aarch64-linux-gnu-ld",
+      "AR": "arm-linux-gnueabi-ar",
+      "NM": "arm-linux-gnueabi-nm",
+      "OBJCOPY": "arm-linux-gnueabi-objcopy",
+      "OBJDUMP": "arm-linux-gnueabi-objdump",
+      "READELF": "arm-linux-gnueabi-readelf",
+      "OBJSIZE": "arm-linux-gnueabi-size",
+      "STRIP": "arm-linux-gnueabi-strip",
+      "LDGOLD": "aarch64-linux-gnu-ld.gold",
+      "LLVM_AR": "arm-linux-gnueabi-ar",
+      "LLVM_DIS": "arm-linux-gnueabi-dis"
+    }
+  }
+}
+
     "AnyKernel3": {
       "use": true,
       "release": true
